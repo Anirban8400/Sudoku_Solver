@@ -12,10 +12,6 @@ import numpy as np
 import cv2 as cv
 from scipy import ndimage
 
-
-# If using TF 2.15+ or Keras 3.x:
-# Model.predict([inputs]) → just use Model.predict(inputs)
-
 class WebcamSudokuSolver:
     def __init__(self, model):
         self.model = model
